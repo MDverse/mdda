@@ -1,0 +1,26 @@
+name: mdda
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest priority
+channels:
+    - defaults
+    - bioconda
+    - conda-forge
+dependencies:
+    - python=3.9
+    - pip
+    - jupyterlab=3
+    - numpy
+    - scipy
+    - pandas
+    - matplotlib==3.5.3
+    - plotly
+    # linters and more
+    - pylint
+    - pycodestyle
+    - pydocstyle
+    - black
+    - pip:
+        - upsetplot     # https://upsetplot.readthedocs.io/en/stable/index.html
+        - pysankeybeta  # https://github.com/pierre-sassoulas/pySankey
+        - watermark
