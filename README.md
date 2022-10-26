@@ -1,4 +1,4 @@
-# Molecular Dynamics data analysis
+# Molecular dynamics data analysis
 
 ## Setup your environment
 
