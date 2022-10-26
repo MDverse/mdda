@@ -1,0 +1,24 @@
+# Result files
+*.tsv
+data/*
+!data/.gitkeep
+
+# Result figures
+notebooks/*.png
+notebooks/*.svg
+results/
+
+# dev / test files
+dev*
+
+# credential file
+.env
+
+# Byte-compiled Python files
+__pycache__/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# MAC tmp files
+.DS_Store
