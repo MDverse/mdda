@@ -29,7 +29,7 @@ mamba env create -f binder/environment.yml
 
 Load the `mdda` conda environment:
 ```
-conda activate mdws
+conda activate mdda
 ```
 
 Note: you can also update the conda environment with:
