@@ -15,6 +15,7 @@ dependencies:
     - pandas
     - matplotlib==3.5.3
     - plotly
+    - pyyaml
     # linters and more
     - pylint
     - pycodestyle
