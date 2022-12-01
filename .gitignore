@@ -1,11 +1,12 @@
-# Result files
+# Data files
 *.tsv
 data/*
 !data/.gitkeep
 
 # Result figures
-notebooks/*.png
-notebooks/*.svg
+notebooks/*.html
+notebooks/fig/*.png
+notebooks/fig/*.svg
 results/
 
 # dev / test files
