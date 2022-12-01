@@ -52,9 +52,6 @@ Data files should be located in the `data` directory and comply with the [data m
 
 Run all Jupyter notebooks in batch mode:
 ```
-jupyter nbconvert --to html  --execute --allow-errors --output-dir results notebooks/analyze_zenodo.ipynb
-jupyter nbconvert --to html  --execute --allow-errors --output-dir results notebooks/zenodo_stats.ipynb
-jupyter nbconvert --to html  --execute --allow-errors --output-dir results notebooks/search_MD_in_pubmed.ipynb
-jupyter nbconvert --to html  --execute --allow-errors --output-dir results notebooks/analyze_all2.ipynb
-cp notebooks/*.{svg,png} results/
+jupyter nbconvert --to html  --execute --allow-errors --output-dir results notebooks/paper_figures.ipynb
+cp notebooks/fig/*.{svg,png} results/fig/
 ```
