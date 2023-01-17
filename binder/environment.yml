@@ -16,6 +16,7 @@ dependencies:
     - matplotlib==3.5.3
     - plotly
     - pyyaml
+    - biopython
     # linters and more
     - pylint
     - pycodestyle
