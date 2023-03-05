@@ -17,6 +17,7 @@ dependencies:
     - plotly
     - pyyaml
     - biopython
+    - pyarrow
     # linters and more
     - pylint
     - pycodestyle
