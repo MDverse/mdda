@@ -55,3 +55,10 @@ Use this script to run all Jupyter notebooks in batch mode:
 ```bash
 bash make_results.sh
 ```
+
+The directory `results` contains Jupyter notebooks exported in html, figures as .png and .svg images and a couple of TSF files.
+
+
+
+
+

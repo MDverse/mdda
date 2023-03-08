@@ -6,3 +6,5 @@ jupyter nbconvert --to html  --execute --allow-errors --output-dir results noteb
 mkdir -p results/fig
 cp notebooks/fig/*.{svg,png} results/fig/
 cp notebooks/*.tsv results/
+
+tree results/
