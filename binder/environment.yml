@@ -18,6 +18,7 @@ dependencies:
     - pyyaml
     - biopython
     - pyarrow
+    - jupyterlab_execute_time
     # linters and more
     - pylint
     - pycodestyle
