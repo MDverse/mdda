@@ -56,12 +56,13 @@ Files are downloaded in the `data` directory:
 
 ```bash
 $ tree data
-data
+data/
 ├── data_model_parquet.md
 ├── datasets.parquet
 ├── files.parquet
 ├── gromacs_gro_files.parquet
-└── gromacs_mdp_files.parquet
+├── gromacs_mdp_files.parquet
+└── gromacs_xtc_files.parquet
 ```
 
 The data model is described in the codebook `data/data_model_parquet.md`
