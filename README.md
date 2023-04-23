@@ -1,4 +1,4 @@
-# Molecular dynamics data analysis
+# MDverse data analysis
 
 ## Setup your environment
 
@@ -46,7 +46,25 @@ conda deactivate
 
 ## Get data
 
-Data files should be located in the `data` directory and comply with the [data model](https://github.com/MDverse/mdws/blob/main/docs/data_model.md).
+Run this command to download required data files:
+
+```bash
+bash scripts/get_data.sh
+```
+
+Files are downloaded in the `data` directory:
+
+```bash
+$ tree data
+data
+├── data_model_parquet.md
+├── datasets.parquet
+├── files.parquet
+├── gromacs_gro_files.parquet
+└── gromacs_mdp_files.parquet
+```
+
+The data model is described in the codebook `data/data_model_parquet.md`
 
 ## Analyse data
 
@@ -56,7 +74,7 @@ Use this script to run all Jupyter notebooks in batch mode:
 bash make_results.sh
 ```
 
-The directory `results` contains Jupyter notebooks exported in html, figures as .png and .svg images and a couple of TSF files.
+The directory `results` contains Jupyter notebooks exported in html, figures as .png and .svg images and a couple of TSV files. All these files are also bundled in the `results.zip` file.
 
 
 
