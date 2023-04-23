@@ -3,11 +3,12 @@
 data/*
 !data/.gitkeep
 
-# Result figures
+# Result outputs
 notebooks/*.html
 notebooks/fig/*.png
 notebooks/fig/*.svg
 results/
+results.zip
 
 # dev / test files
 dev*
