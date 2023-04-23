@@ -75,8 +75,3 @@ bash make_results.sh
 ```
 
 The directory `results` contains Jupyter notebooks exported in html, figures as .png and .svg images and a couple of TSV files. All these files are also bundled in the `results.zip` file.
-
-
-
-
-
